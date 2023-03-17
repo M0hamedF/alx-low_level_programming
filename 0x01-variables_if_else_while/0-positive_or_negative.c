@@ -1,11 +1,9 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+#include <stdio.h>
+/**
  * main - Entry point
- *
- * Discription: 'Number type check'
- *
+ * Description: 'Check for number if it is positive or negative'
  * Return: always 0
 */
 
