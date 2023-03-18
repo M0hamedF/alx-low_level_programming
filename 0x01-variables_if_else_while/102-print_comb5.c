@@ -32,7 +32,7 @@ int main(void)
 					}
 					x++;
 					}
-					patchar('\n');
+					putchar('\n');
 
 					return (0);
 					}
