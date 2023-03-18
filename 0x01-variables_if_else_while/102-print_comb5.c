@@ -28,11 +28,11 @@ int main(void)
 					putchar(' ');
 					}
 					}
-					y++
+					y++;
 					}
-					x++
+					x++;
 					}
-					patcher('\n');
+					patchar('\n');
 
 					return (0);
 					}
