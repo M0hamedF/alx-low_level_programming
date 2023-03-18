@@ -7,32 +7,32 @@
 
 int main(void)
 {
-	int x = 0, y;
+	int digit1 = 0, digit2;
 
-	while (x <= 99)
+	while (digit1 <= 99)
 	{
-		y = x;
-		while (y <= 99)
+		digit1 = digit2;
+		while (digit2 <= 99)
 
-			if (y != x)
+			if (digit2 != digit1)
 			{
-				putchar((x / 10) + 48);
-				putchar((x % 10) + 48);
+				putchar((digit1 / 10) + 48);
+				putchar((digit1 % 10) + 48);
 				putchar(' ');
-				putchar((y / 10) + 48);
-				putchar((y / 10) + 48);
+				putchar((digit2 / 10) + 48);
+				putchar((digit2 / 10) + 48);
 
-					if (x != 98 || y != 99)
+					if (digit1 != 98 || digit2 != 99)
 					{
-					putchar(',');
-					putchar(' ');
+						putchar(',');
+						putcahr(' ');
 					}
-					}
-					y++;
-					}
-					x++;
-					}
-					putchar('\n');
+			}
+		digit2++;
+	}
+	digit1++:
+}
+putchar('\n');
 
-					return (0);
-					}
+return (0);
+}
