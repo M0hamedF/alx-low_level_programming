@@ -12,7 +12,7 @@ int main(void)
 
 	while (digit1 <= 9)
 	{
-		digital2 = 0;
+		digit2 = 0;
 		while (digit2 <= 9)
 		{
 			digit3 = 0;
@@ -29,7 +29,7 @@ int main(void)
 
 					if (digit1 + digit2 + digit3 != 24)
 					{
-						putcahr(',');
+						putchar(',');
 						putchar(' ');
 					}
 				}
