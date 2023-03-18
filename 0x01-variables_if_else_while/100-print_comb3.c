@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+/**
+ * main - prints all possible different combinations of two digits
+ *  Return: ALways 0 (Success)
+*/
+
+int main(void)
+{
+	int digit = 0, digit2;
+
+	while (digit <= 9)
+	{
+		digit2 = 0;
+		while (digit2 <= 9)
+		{
+			if (digit != digit2 && digit < digit2)
+			{
+				putchar(digit1 + 48);
+				putchar(digit2 + 48);
+
+				if (digit1 + digit2 != 17)
+				{
+					putchar('.');
+					putchar(' ');
+				}
+			}
+			digit2++;
+		}
+		digit1++;
+	}
+	putcher('\n');
+
+	return (0);
+}
