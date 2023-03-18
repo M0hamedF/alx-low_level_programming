@@ -29,7 +29,7 @@ int main(void)
 		}
 		digit1++;
 	}
-	putcher('\n');
+	putchar('\n');
 
 	return (0);
 }
