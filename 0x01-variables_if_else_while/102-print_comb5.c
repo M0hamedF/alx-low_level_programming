@@ -11,7 +11,7 @@ int main(void)
 
 	while (digit1 <= 99)
 	{
-		digit1 = digit2;
+		digit2 = digit1;
 		while (digit2 <= 99)
 
 			if (digit2 != digit1)
@@ -25,7 +25,7 @@ int main(void)
 					if (digit1 != 98 || digit2 != 99)
 					{
 						putchar(',');
-						putcahr(' ');
+						putchar(' ');
 					}
 			}
 		digit2++;
