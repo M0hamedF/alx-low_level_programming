@@ -6,31 +6,31 @@
  */
 
 int main(void)
-{
-	int firstDigit = 0, secoundDigit;
+
+	int firstDigit = 0, seconDigit;
 
 	while (firstDigit <= 99)
+{
+	seconDigit = firstDigit;
+	while (seconDigit <= 99)
 	{
-		secoundDigit = firstDigit;
-		while (secoundDigit <= 99)
+		if (seconDigit != firstDigit)
+		{
+			putchar((firstDigit / 10) + 48);
+			putchar((firstDigit % 10) + 48);
+			putchar(' ');
+			putchar((seconDigit / 10) + 48);
+			putchar((seconDigit % 10) + 48);
 
-			if (secoundDigit != firstDigit)
+			if (firstDigit != 98 || seconDigit != 99)
 			{
-				putchar((firstDigit / 10) + 48);
-				putchar((firstDigit % 10) + 48);
-				putchar(' ');
-				putchar((secoundDigit / 10) + 48);
-				putchar((secoundDigit / 10) + 48);
-
-					if (firstDigit != 98 || secoundDigit != 99)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+				putcher(',');
+				putcher(' ');
 			}
-		secoundDigit++;
+		}
+		seconDigit++;
 	}
-	firstDigit++:
+	firstDigit++;
 }
 putchar('\n');
 
