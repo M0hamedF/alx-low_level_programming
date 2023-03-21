@@ -1,9 +1,9 @@
 #include"main.h"
 
 /**
- * print_alphabet
+ * print_alphabet - utilizes on the _putchar function to print
+ * the alphabat a -z
  *
- * description:a function that prints
 */
 
 void print_alphabet(void)
