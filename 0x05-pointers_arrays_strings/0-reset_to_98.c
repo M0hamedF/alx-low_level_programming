@@ -4,6 +4,7 @@
  * reset_to_98
  * the value it points to 98
  * @n: pointer to an int
+ * Return: Always 0
  */
 
 void reset_to_98(int *n)
