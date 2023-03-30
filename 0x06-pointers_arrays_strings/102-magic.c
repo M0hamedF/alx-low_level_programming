@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - run main code
  *
  * Return: 0(success)
- */
+*/
 int main(void)
 {
 	int n;
