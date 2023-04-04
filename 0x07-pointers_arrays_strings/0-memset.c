@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
- *
+ * _memset - function that fills memory with a constant byte
+ * @b: constant
+ * @s: pointer to put constant
+ * @n: size of bytes
  * Return: Nothing.
  */
 
