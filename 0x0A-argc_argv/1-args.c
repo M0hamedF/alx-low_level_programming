@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - a program that prints the number of arguments passed into it
- * @argc: count the number of paraetar
- * @argv: pointer to an array of an argujent
- * Return : 0
-*/
+ * main - program that prints the number of arguments passed into it
+ * @argc: argument count
+ * @argv: argunment vector
+ *
+ * Return: int
+ */
 
 int main(int argc, char *argv[])
 {
