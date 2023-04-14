@@ -22,27 +22,24 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	_memset(cal, 0, nmemb * size);
 	return (cal);
 }
-
 /**
- * _calloc -  allocates memory using malloc and initializes in 0
- * @nmemb: number of elements of array to allocate
- * @size: size of elements
+ * _memset - function that fills memory with a constant byte.
  *
- * Return: Pointer to allocated memory or normal process termination
- * with a status value of 98
+ * @s: mamory area to return
+ * @b: constant byte
+ * @n: size of bytes
+ * Return: char
  */
-void *_calloc(unsigned int nmemb, unsigned int size)
+
+char *_memset(char *s, char b, unsigned int n)
 {
-	void *p;
+	unsigned int i = 0;
 
+	while (i < n)
+	{
 
-	if (nmemb == 0 || size == 0)
-		return (0);
-
-	p = malloc(nmemb * size);
-	if (p == 0)
-		return (0);
-	_memset(p, 0, size * nmemb);
-
-	return (p);
+		*(s + i) = b;
+		i += 1;
+	}
+	return (s);
 }
