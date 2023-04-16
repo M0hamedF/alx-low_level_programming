@@ -18,8 +18,8 @@ int x;
 }
 else
 {
-	x = atoi(argv[1]) * atoi(argv[2]);
-printf("%d\n", x);
+x = atoi(argv[1]) * atoi(argv[2]);
+printf("%i\n", x);
 }
-return (0);
+return (1);
 }
