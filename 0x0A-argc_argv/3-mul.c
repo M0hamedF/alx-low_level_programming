@@ -10,18 +10,18 @@
 
 int main(int argc, char **argv)
 {
-int n, ex;
+int x, y;
 
-ex = 0;
+y = 0;
 if (argc != 3)
 {
 printf("%s\n", "Error");
-ex = 1;
+y = 1;
 }
 else
 {
-n = atoi(argv[1]) * atoi(argv[2]);
-printf("%i\n", n);
+x = atoi(argv[1]) * atoi(argv[2]);
+printf("%i\n", x);
 }
-return (ex);
+return (y);
 }
