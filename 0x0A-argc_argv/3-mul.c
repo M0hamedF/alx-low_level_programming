@@ -21,5 +21,5 @@ else
 x = atoi(argv[1]) * atoi(argv[2]);
 printf("%i\n", x);
 }
-return (1);
+return (0);
 }
