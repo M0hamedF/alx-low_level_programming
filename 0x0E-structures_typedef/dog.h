@@ -2,10 +2,12 @@
 #define DOG_H
 
 /**
- * main - struct dog
- * @name: dog`s name
+ * struct dog - dog struct
+ * @name: dog`s niame
  * @age: dog`s age
  * @owner: dog`s owner
+ * Description: just a lone struct dog in a big kitty world
+ * Return: 0
 */
 
 struct dog
