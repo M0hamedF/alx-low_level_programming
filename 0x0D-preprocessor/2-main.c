@@ -7,6 +7,6 @@
 
 int main()
 {
-printf("source file is: %s\n", _FILE_);
+printf(" %s\n", _FILE_);
 return 0;
 }
