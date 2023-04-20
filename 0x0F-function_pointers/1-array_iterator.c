@@ -7,13 +7,14 @@
  * @action: function pointer
  * Return: void
 */
-
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-unsigned int i;
+	 int n = 0;
 
-if (action && array)
-{for (i = 0; i < size; i++)
-	aciton(array[i]);
+	if (array != 0 && size >= 1 && action != 0)
+	while (n < size)
+{
+	action(array[n]);
+	n++;
 }
 }
