@@ -10,24 +10,27 @@
 
 int main(int argc, char **argv)
 {
+	int n;
 	int i;
-       int j;
-	char *x;
 
-	if (argc != 2)
-		printf("Error\n"), exit(1);
-
-	j = atoi(argv[1]);
-
-if (j < 0)
-printf("Error\n"), exit(2);
-
-x = (char *)main;
-
-for (i = 0; i < bytes - 1; i++)
-	printf("%02hhx ", x[i]);
-
-printf("%02hhx\n", x[i]);
-
+if (argc != 2)
+{
+	printf("Error\n");
+	exit(1);
+}
+n  = atoi(argv[1]);
+if (n < 0)
+{
+	printf("Error\n");
+	exit(2);
+}
+for (i = 0; i < n; i++)
+{
+	printf("%02hhx", ((char *)main)[i]);
+	if (i != (n - 1))
+		printf(" ");
+	else
+	printf("\n");
+}
 return (0);
 }
