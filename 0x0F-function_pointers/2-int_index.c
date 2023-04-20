@@ -9,7 +9,7 @@
 */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int n = 0;
+	int n;
 
 	if (array && cmp && size)
 {
