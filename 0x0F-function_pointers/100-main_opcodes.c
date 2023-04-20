@@ -9,6 +9,7 @@
  */
 int main(int argc, char **argv)
 {
+	char *mainaddr;
 	int i;
 	int j;
 
