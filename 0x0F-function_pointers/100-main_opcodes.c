@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include "function_pointers.h"
 #include <stdlib.h>
+
 /**
- * main - check the code for Holberton School students.
- * @argc: number of args
- * @argv: pointers to string args
- * Return: Always 0 on success
+ * main - program that prints the opcodes of its own main function
+ * @argc: Counts the number of parameters
+ * @argv: Pointer of array of pointers
+ * Return: 0
  */
 
 int main(int argc, char **argv)
