@@ -7,28 +7,27 @@
  * @argv: pointers to string args
  * Return: Always 0 on success
  */
+
 int main(int argc, char **argv)
 {
-	char *mainaddr;
 	int i;
-	int j;
+       int j;
+	char *x;
 
-if (argc != 2)
-{
-printf("Error\n"), exit(1);
-}
+	if (argc != 2)
+		printf("Error\n"), exit(1);
 
-j = atoi(argv[1]);
+	j = atoi(argv[1]);
 
 if (j < 0)
-	printf("Error\n"), exit(2);
+printf("Error\n"), exit(2);
 
-mainaddr = (char *)main;
+x = (char *)main;
 
 for (i = 0; i < bytes - 1; i++)
-	printf("%02hhx ", mainaddr[i]);
+	printf("%02hhx ", x[i]);
 
-printf("%02hhx\n", mainaddr[i]);
+printf("%02hhx\n", x[i]);
 
 return (0);
 }
